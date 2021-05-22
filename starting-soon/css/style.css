@@ -1,0 +1,213 @@
+@font-face{
+    font-family: ar-font;
+    src: url(../fonts/Cairo-SemiBold.ttf);
+}
+body{
+    direction: rtl;
+    font-family: ar-font;
+}
+header{
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+header .brand{
+    padding: 20px 10px;
+    margin: 80px auto 50px;
+    border-bottom: 5px solid #474c55;
+    display: inline-block;
+}
+header .page-heading h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 75px;
+}
+header .page-heading p{
+    font-size: 18px;
+    color: #acacac;
+    line-height: 25px;
+    width: 40%;
+    margin: 0 auto;
+}
+header .counter .countdown-amount{
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffce00;
+    display: block;
+}
+header .counter .countdown-period{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+}
+header .counter .countdown-section{
+    display: inline-block;
+    margin: 0 20px;
+}
+header .counter{
+    margin: 60px auto;
+    padding: 30px;
+}
+header .send-notification p{
+    font-size: 18px;
+    color: #fff;
+}
+header .send-notification .input-group input {
+    font-size: 18px;
+    font-family: ar-font;
+    color: #1b1919;
+    border-width: 2px;
+    border-color: #e6e6e6;
+    border-radius: 0px;
+    height: auto;
+}
+header .send-notification .input-group button{
+    border-radius: 0px;
+    padding: .5rem 1.5rem;
+    background-color: #ffce00;
+}
+footer .top-footer .overlay .input-group {
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+}
+footer .top-footer .overlay .input-group input {
+    border-radius: 0;
+    font-size: 18px;
+    font-family: ar-font;
+    color: #0e0b0b;
+    border-color: #fff;
+}
+footer .top-footer .overlay .input-group input:hover, footer .top-footer .overlay .input-group input:focus {
+    box-shadow: 0 0 0;
+    border-color: rgb(22, 21, 21);
+}
+/* تنسيق زر نموذج الإرسال */
+footer .top-footer .overlay .input-group button {
+    border-radius: 0;
+    background-color: #393939;
+    padding: .5rem 1.5rem;
+}
+/* تنسيق رسالة الخطأ التي تظهر عند إدخال معلومات خاطئة في النموذج */
+footer .top-footer .overlay .alert {
+    display: none;
+    position: absolute;
+    top: 110%;
+    right: 0;
+    left: 0;
+}
+/* تنسيق طول حقل الإدخال */
+footer .top-footer .overlay .input-group input {
+  height: auto;
+}
+
+
+
+header .send-notification .input-group, footer .input-group {
+    width: 30%;
+    margin: 0 auto;
+}
+header .send-notification .input-group .alert {
+    position: absolute;
+    top: 110%;
+    left:0;
+    right:0;
+    display: none;
+}
+
+
+section.features h2 {
+    margin-bottom: 50px;
+    font-size: 45px;
+    color: #555; 
+}
+section.feartures {
+    padding: 100px 0;
+
+}
+
+section.features .media {
+    border: 4px solid #fafafa;
+    padding: 40px 10px;
+    margin-bottom: 20px;
+    position: relative;
+    max-height: 190px;
+  }
+section.features .media .media-body h5 {
+    font-size: 24px;
+    color: #555; 
+}
+ection.features .media .media-body p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #9c9c9c; 
+}
+section.features {
+  text-align: right;
+}
+section.features div[class*="col-"]:nth-child(even) {
+    text-align: left;
+  }
+
+  footer {
+    background-image: url(../images/footer-bg.jpg);
+    background-size: cover;
+    background-position: center center; 
+  }
+  /* إضافة الطبقة الصفراء الشفافة على الخلفية وضبط الحاشية الخاصة بها */
+  footer .top-footer .overlay {
+    background-color: rgba(255, 204, 0, 0.7);
+    padding: 60px 0; 
+  }
+  /* التنسيقات المطبقة على خط العنوان */
+  footer .top-footer .overlay h3 {
+    font-size: 30px;
+    width: 80%;
+    margin: 0 auto 30px; 
+  }
+  footer .contact .overlay {
+    background-color: rgba(28, 28, 28, 0.7);
+    padding: 60px 0 10px;
+    color: #fff;
+  }
+  footer .contact .overlay h3 {
+    font-size: 30px;
+    margin: 0 auto 30px; 
+}
+footer .contact .overlay ul li a {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.14);
+	color: #fff;
+    font-size: 1.2em;
+}
+
+footer .contact .overlay ul{
+    margin: 0  5px;
+
+}
+
+/* تغير لون خلفية الأيقونات عند مرور مؤشر الفأرة عليها */
+footer .contact .overlay ul li a:hover {
+    background-color: #ffce00; 
+
+}
+footer .contact .overlay hr {
+    width: 25%;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px; 
+}
+
+
+/* تنسيق أيقونة الظرف وإضافة مسافة بينها وبين البريد الإلكتروني */
+footer .contact .overlay p a {
+     color: #b4b4b4; 
+}
+footer .contact .overlay p a i {
+     color: #ffce00;
+     margin-left: 5px; 
+}
